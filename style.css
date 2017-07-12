@@ -17,7 +17,7 @@
 	height: 100%;
 	background: #ff7000;
 	border-radius: 5px;
-	box-shadow: 0px 20px 50px -10px #111111;
+	box-shadow: 0px 0px 20px 0px #555555;
 	padding: 5px;
 }
 
@@ -26,28 +26,32 @@
  	font-size: 250%;
  	text-align: center;
 	color: #fefedd;
-	text-shadow: 10px 10px 15px #111111;
+	text-shadow:  0px 0px 15px #111111;
 }
 
-a:link, a:visited
+#left a:link, a:visited
 {
 	color: #fefedd;
 	text-decoration: none;
 	text-align: center;
-	text-shadow: 10px 10px 10px #111111;
+	text-shadow: 0px 0px 10px #111111;
 }
 
-a:hover
+#left a:hover
 {
 	color: #3333ff;
 	text-decoration: none;
 }
 
-img
+#Vk
 {
 	width: 50px;
 	height: 50px;
 }
 
-
+#GH
+{
+	width: 60px;
+	height: 50px;
+}
 
