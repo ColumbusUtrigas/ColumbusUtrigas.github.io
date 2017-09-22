@@ -1,6 +1,11 @@
 body
 {
-	background-color: #DFDFDF;
+	background-color: #666666;
+}
+
+@font-face
+{
+	font-family: CFont; src: "fonts/BreeSerif-Regular.ttf";
 }
 
 #top
@@ -8,7 +13,7 @@ body
 	position: relative;
 	width: 99%;
 	height: 100px;
-	background: #ff7000;
+	background: #333333;
 	border-radius: 5px;
 	box-shadow: 0px 10px 30px -20px #111111;
 	padding: 5px;
@@ -20,7 +25,8 @@ body
 	position: relative;
 	width: 200px;
 	height: 100%;
-	background: #ff7000;
+	/*background: #ff7000;*/
+	background: #333333;
 	border-radius: 5px;
 	box-shadow: 0px 0px 10px 0px #555555;
 	padding: 5px;
@@ -28,22 +34,24 @@ body
 
 #top H1
 {
+	font-family: "CFont", normal, sans-serif;
  	font-size: 250%;
  	text-align: center;
-	color: #fefedd;
+	color: #dbdb0a;
 	text-shadow:  0px 0px 25px #111111;
 }
 
 #left a:link, a:visited
 {
-	color: #fefedd;
+	color: #dbdb0a;
 	text-decoration: none;
 	text-shadow: 0px 0px 20px #111111;
+	font-family: "CFont", normal, sans-serif;
 }
 
 #left a:hover
 {
-	color: #3333ff;
+	color: #666600;
 	text-decoration: none;
 }
 
