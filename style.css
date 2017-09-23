@@ -66,23 +66,55 @@ body
 {
 	width: 50px;
 	height: 50px;
+	transition: all 1s;
+}
+
+#Vk:hover
+{
+	filter: contrast(130%);
+	width: 60px;
+	height: 60px
 }
 
 #GH
 {
 	width: 60px;
 	height: 50px;
+	transition: all 1s;
+}
+
+#GH:hover
+{
+	filter: contrast(130%);
+	width: 70px;
+	height: 60px
 }
 
 #Habr
 {
 	width: 50px;
 	height: 50px;
+	transition: all 1s;
+}
+
+#Habr:hover
+{
+	filter: contrast(130%);
+	width: 60px;
+	height: 60px
 }
 
 #GT
 {
 	width: 50px;
 	height: 50px;
+	transition: all 1s;
+}
+
+#GT:hover
+{
+	filter: contrast(130%);
+	width: 60px;
+	height: 60px;
 }
 
