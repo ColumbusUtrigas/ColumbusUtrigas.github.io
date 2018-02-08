@@ -35,7 +35,7 @@ body
 
 #center
 {
-	position: fixed;
+	position: absolute;
 	top: 150px;
 	left: 300px;
 	width: 70%;
