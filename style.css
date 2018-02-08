@@ -23,6 +23,7 @@ body
 #left
 {
 	position: relative;
+	left: 0px;
 	width: 200px;
 	height: 100%;
 	/*background: #ff7000;*/
@@ -39,7 +40,20 @@ body
 	top: 150px;
 	left: 300px;
 	width: 70%;
-	height: 70%;
+	height: 100px;
+	background: #333333;
+	transition: all 1s;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #555555;
+	padding: 5px;
+}
+
+#centerElem
+{
+	position: relative;
+	left: 0px;
+	top: 20px;
+	width: 100%;
 	background: #333333;
 	transition: all 1s;
 	border-radius: 5px;
@@ -49,6 +63,7 @@ body
 
 #left:hover
 {
+	left: 30px;
 	box-shadow: 0px 0px 30px 0px #333;
 }
 
@@ -70,6 +85,35 @@ body
 	text-shadow:  0px 0px 25px #111111;	
 }
 
+#centerElem a:link, a:visited
+{
+	color: #dbdb0a;
+	text-decoration: none;
+	text-shadow: 0px 0px 20px #111111;
+	font-family: "CFont", normal, sans-serif;
+	transition: all 1s;
+}
+
+#centerElem h2
+{
+	color: #dbdb0a;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0px 0px 20px #111111;
+	font-family: "CFont", normal, sans-serif;
+	transition: all 1s;		
+}
+
+#centerElem p
+{
+	color: #dbdb0a;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0px 0px 20px #111111;
+	font-family: "CFont", normal, sans-serif;
+	transition: all 1s;	
+}
+
 #left a:link, a:visited
 {
 	color: #dbdb0a;
@@ -83,6 +127,15 @@ body
 {
 	color: #666600;
 	text-decoration: none;
+}
+
+#centerElem:hover
+{
+	box-shadow: 0px 0px 30px 0px #333;
+	filter: contrast(130%);
+	left: 50px;
+	/*width: 105%;
+	height: 105%*/
 }
 
 #Vk
