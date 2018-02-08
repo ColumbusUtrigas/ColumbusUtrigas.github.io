@@ -94,6 +94,12 @@ body
 	transition: all 1s;
 }
 
+#centerElem h2:hover
+{
+	color: #666600;
+	text-decoration: none;
+}
+
 #centerElem h2
 {
 	color: #dbdb0a;
