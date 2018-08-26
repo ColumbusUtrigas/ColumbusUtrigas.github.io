@@ -1,322 +1,52 @@
 body
 {
-	background-color: #666666;
-}
-
-@font-face
-{
-	font-family: Font; src: "fonts/BreeSerif-Regular.ttf";
-}
-
-h1 { text-align: center; }
-a { text-decoration: none; color: #dbdb0a; transition: all 1s; }
-img { transition: all 1s; }
-
-.Top
-{
-	background: #333333;
-	width: 100%;
-	height: 100px;
-	position: fixed;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	font-family: "Font", normal, sans-serif;
- 	font-size: 125%;
- 	text-align: center;
+	margin: 0;
+	background: #666666;
 	color: #dbdb0a;
+	font-family: sans-serif;
 }
-.Top a:hover { color: #666000; }
+
+* { transition: all 1s; }
+
+header { background: #333333; height: 100px; line-height: 100px; }
+h1, h2, h3, p { margin: 0; text-align: center; }
 
 .Contacts
 {
-	background: #333333;
-	position: absolute;
-	width: 200px;
-	margin-top: 10px;
-	left: 0px;
-	top: 100px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	font-family: "Font", normal, sans-serif;
- 	font-size: 100%;
-	color: #dbdb0a;
+	display: flex;
 }
 
 .Contact
 {
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin: 5px;
+	border-radius: 10px;
+	background: #333333;
+	flex: 1 200px;
+	min-height: 60px;
+}
+.Contact:hover { background: #222222; }
+
+.Content { background: #333333; margin: 5px; border-radius: 10px; padding: 10px; }
+.Element
+{
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
 	background: #222222;
-	position: relative;
-	height: 70px;
-	line-height: 70px;
 	border-radius: 10px;
-	margin: 10px;
-	font-family: "Font", normal, sans-serif;
-	font-size: 100%;
-	text-align: left;
-	vertical-align: middle;
-	color: #dbdb0a;
-	transition: all 1s;
 }
-.Contact:hover { background: #111111; }
-.Contact img:hover { filter: contrast(130%); }
-.Contact a
-{
-	left: 30px;
-	position: relative;
-	font-family: "Font", normal, sans-serif;
-	font-size: 100%;
-}
-.Contact a:hover { color: #666000; }
+.Element:hover { background: #111111; }
 
-.Content
-{
-	background: #333333;
-	position: absolute;
-	font-family: "Font", normal, sans-serif;
-	font-size: 100%;
-	color: #dbdb0a;
-	margin: 10px;
-	padding: 10px;
-	border-radius: 10px;
-	right: 10px;
-	left: 250px;
-	top: 100px;
-}
 
-.ContentElement
-{
-	background: #222222;
-	position: relative;
-	font-family: "Font", normal, sans-serif;
-	font-size: 100%;
-	color: #dbdb0a;
-	margin: 10px;
-	padding: 5px;
-	line-height: 100%;
-	border-radius: 10px;
-	text-align: center;
-	vertical-align: middle;
-	top: 10px;
-	transition: all 1s;
-}
-.ContentElement:hover { background: #111111; }
-.ContentElement p { left: 50px; right: 50px; padding-left: 50px; padding-right: 50px }
-.ContentElement a:hover { color: #666000; }
 
-#top
-{
-	position: relative;
-	width: 99%;
-	height: 100px;
-	background: #333333;
-	border-radius: 5px;
-	box-shadow: 0px 10px 30px -20px #111111;
-	padding: 5px;
-	top: -10px;
-}
-   
-#left
-{
-	position: relative;
-	left: 0px;
-	width: 200px;
-	height: 100%;
-	/*background: #ff7000;*/
-	background: #333333;
-	transition: all 1s;
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px 0px #555555;
-	padding: 5px;
-}
 
-#center
-{
-	position: absolute;
-	top: 150px;
-	left: 300px;
-	width: 70%;
-	height: 100px;
-	background: #333333;
-	transition: all 1s;
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px 0px #555555;
-	padding: 5px;
-}
 
-#centerElem
-{
-	position: relative;
-	left: 0px;
-	top: 20px;
-	width: 100%;
-	background: #333333;
-	transition: all 1s;
-	border-radius: 5px;
-	box-shadow: 0px 0px 10px 0px #555555;
-	padding: 5px;
-}
 
-#left:hover
-{
-	left: 30px;
-	box-shadow: 0px 0px 30px 0px #333;
-}
 
-#top H1
-{
-	font-family: "CFont", normal, sans-serif;
- 	font-size: 250%;
- 	text-align: center;
-	color: #dbdb0a;
-	text-shadow:  0px 0px 25px #111111;
-}
 
-#center H1
-{
-	font-family: "CFont", normal, sans-serif;
- 	font-size: 250%;
- 	text-align: center;
-	color: #dbdb0a;
-	text-shadow:  0px 0px 25px #111111;	
-}
 
-#centerElem a:link, a:visited
-{
-	color: #dbdb0a;
-	text-decoration: none;
-	text-shadow: 0px 0px 20px #111111;
-	font-family: "CFont", normal, sans-serif;
-	transition: all 1s;
-}
 
-#centerElem h2:hover
-{
-	color: #666600;
-	text-decoration: none;
-}
-
-#centerElem h2
-{
-	color: #dbdb0a;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0px 0px 20px #111111;
-	font-family: "CFont", normal, sans-serif;
-	transition: all 1s;		
-}
-
-#centerElem h3
-{
-	color: #dbdb0a;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0px 0px 20px #111111;
-	font-family: "CFont", normal, sans-serif;
-	transition: all 1s;		
-}
-
-#centerElem p
-{
-	color: #dbdb0a;
-	text-align: center;
-	text-decoration: none;
-	text-shadow: 0px 0px 20px #111111;
-	font-family: "CFont", normal, sans-serif;
-	transition: all 1s;	
-}
-
-#left a:link, a:visited
-{
-	color: #dbdb0a;
-	text-decoration: none;
-	text-shadow: 0px 0px 20px #111111;
-	font-family: "CFont", normal, sans-serif;
-	transition: all 1s;
-}
-
-#left a:hover
-{
-	color: #666600;
-	text-decoration: none;
-}
-
-#centerElem:hover
-{
-	box-shadow: 0px 0px 30px 0px #333;
-	filter: contrast(130%);
-	left: 50px;
-	/*width: 105%;
-	height: 105%*/
-}
-
-#Vk
-{
-	width: 50px;
-	height: 50px;
-	transition: all 1s;
-}
-
-#Vk:hover
-{
-	filter: contrast(130%);
-	width: 60px;
-	height: 60px
-}
-
-#GH
-{
-	width: 60px;
-	height: 50px;
-	transition: all 1s;
-}
-
-#GH:hover
-{
-	filter: contrast(130%);
-	width: 70px;
-	height: 60px
-}
-
-#Habr
-{
-	width: 50px;
-	height: 50px;
-	transition: all 1s;
-}
-
-#Habr:hover
-{
-	filter: contrast(130%);
-	width: 60px;
-	height: 60px
-}
-
-#GT
-{
-	width: 50px;
-	height: 50px;
-	transition: all 1s;
-}
-
-#GT:hover
-{
-	filter: contrast(130%);
-	width: 60px;
-	height: 60px;
-}
-
-#TW
-{
-	width: 50px;
-	height: 50px;
-	transition: all 1s;
-}
-
-#TW:hover
-{
-	filter: contrast(130%);
-	width: 60px;
-	height: 60px;
-}
 
