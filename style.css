@@ -102,6 +102,7 @@ img { transition: all 1s; }
 }
 .ContentElement:hover { background: #111111; }
 .ContentElement p { left: 50px; right: 50px; padding-left: 50px; padding-right: 50px }
+.ContentElement a:hover { color: #666000; }
 
 #top
 {
