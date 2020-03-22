@@ -1,43 +1,114 @@
-body
-{
+body { margin: 0; background: #E1E1E1; }
+
+.top {
+	position: relative;
+	width: 100%;
+	height: 600px;
+
+	background: #1E1E1E;
+}
+
+.columbus {
 	margin: 0;
-	background: #666666;
-	color: #bebebe;
-	font-family: sans-serif;
-}
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 200px;
+	top: 200px;
 
-header { background: #333333; height: 100px; line-height: 100px; }
-h1, h2, h3, p { margin: 0; text-align: center; }
-
-.Contacts
-{
-	margin-top: 5px;
-	display: flex;
-}
-
-.Contact
-{
-	display: flex;
-	justify-content: center;
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	line-height: 102px;
 	align-items: center;
-	margin: 5px;
-	border-radius: 10px;
-	background: #333333;
-	flex: 1 200px;
-	min-height: 60px;
-}
-body.loaded .Contact { transition: ease-in-out 0.2s; }
-.Contact:hover { background: #282828; }
-
-.Content { background: #333333; margin: 5px; border-radius: 10px; padding: 10px; }
-.Element
-{
 	text-align: center;
-	margin-top: 10px;
-	margin: 10px;
-	padding: 15px;
-	border-radius: 10px;
-	background: #282828;
+
+	color: #FFFFFF;
 }
-body.loaded .Element { transition: ease-in-out 0.2s; }
-.Element:hover { background: #222222; }
+
+@media only screen and (max-width: 767px) {
+	.columbus {
+		font-size: 50px;
+	}
+}
+
+.links {
+	width: 300px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 45px;
+	align-items: center;
+	text-align: center;
+}
+
+.arrow {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 70px;
+	align-items: center;
+	text-align: center;
+}
+
+.links ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.links li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	list-style-type: none;
+	padding: 10px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+}
+
+@media only screen and (max-width: 767px) {
+	.links li {
+		font-size: 20px;
+	}
+}
+
+.links a {
+	color: #FFFFFF;
+	text-decoration-line: none;
+}
+
+.links a:hover {
+	text-decoration-line: underline;
+}
+
+.works {
+	position: relative;
+	width: 100%;
+}
+
+.works h2 {
+	position: relative;
+	display: inline-block;
+	left: 84px;
+	top: 48px;
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 34px;
+	color: #1E1E1E;
+}
+
+.work {
+	background: #FFFFFF;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+}
