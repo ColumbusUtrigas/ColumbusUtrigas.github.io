@@ -16,11 +16,11 @@ body { margin: 0; background: #E1E1E1; }
 	padding-top: 220px;
 	top: 200px;
 
-	font-family: Georgia;
+	font-family: Roboto Slab;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 90px;
-	line-height: 102px;
+	line-height: 119px;
 	align-items: center;
 	text-align: center;
 
@@ -126,11 +126,11 @@ body { margin: 0; background: #E1E1E1; }
 	position: relative;
 	display: inline-block;
 	top: 48px;
-	font-family: Georgia;
+	font-family: Roboto Slab;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
-	line-height: 34px;
+	line-height: 40px;
 	color: #1E1E1E;
 }
 
@@ -190,11 +190,11 @@ body { margin: 0; background: #E1E1E1; }
 }
 
 .project-header {
-	font-family: Georgia;
+	font-family: Roboto Slab;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 20px;
-	line-height: 23px;
+	line-height: 26px;
 	display: inline;
 	color: #1E1E1E;
 }
