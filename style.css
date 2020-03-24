@@ -12,7 +12,7 @@ body { margin: 0; background: #E1E1E1; }
 	margin: 0;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 200px;
+	padding-top: 170px;
 	top: 200px;
 
 	font-family: Georgia;
@@ -37,7 +37,7 @@ body { margin: 0; background: #E1E1E1; }
 	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 45px;
+	padding-top: 25px;
 	align-items: center;
 	text-align: center;
 }
@@ -45,7 +45,7 @@ body { margin: 0; background: #E1E1E1; }
 .arrow {
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 70px;
+	padding-top: 90px;
 	align-items: center;
 	text-align: center;
 }
@@ -68,7 +68,7 @@ body { margin: 0; background: #E1E1E1; }
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 37px;
 	color: #FFFFFF;
 }
@@ -88,12 +88,13 @@ body { margin: 0; background: #E1E1E1; }
 	text-decoration-line: underline;
 }
 
-.works {
+.works-header {
 	position: relative;
 	width: 100%;
+	height: 130px;
 }
 
-.works h2 {
+.works-header h2 {
 	position: relative;
 	display: inline-block;
 	left: 84px;
@@ -106,9 +107,82 @@ body { margin: 0; background: #E1E1E1; }
 	color: #1E1E1E;
 }
 
+.works {
+	display: flex;
+	flex-flow: column wrap;
+	flex-direction: row;
+	/* flex-wrap: wrap; */
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 100%;
+	flex-grow: 1;
+}
+
 .work {
 	background: #FFFFFF;
 	border-radius: 10px;
+	width: 300px;
+	min-width: 250px;
+	max-width: 400px;
+	margin: 20px;
+	padding: 20px;
 	position: relative;
 	display: inline-block;
+	/* flex: auto; */
+}
+
+.work p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #1E1E1E;
+}
+
+.work a {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration-line: none;
+	color: #1E1E1E;
+}
+
+.work a:hover {
+	text-decoration-line: underline;
+}
+
+.project-header {
+	font-family: Georgia;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	display: inline;
+	color: #1E1E1E;
+}
+
+.language {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 16px;
+}
+
+.link {
+	display: inline;
+}
+
+.link-arrow {
+	display: inline;
+	padding-left: 8px;
+	transition: ease-in-out 0.2s;
+}
+
+.link:hover .link-arrow {
+	padding-left: 14px;
 }
