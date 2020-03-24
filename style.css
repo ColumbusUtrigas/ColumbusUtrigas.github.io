@@ -1,3 +1,4 @@
+html { scroll-behavior: smooth; }
 body { margin: 0; background: #E1E1E1; }
 
 .top {
