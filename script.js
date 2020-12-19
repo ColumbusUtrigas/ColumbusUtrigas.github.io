@@ -7,7 +7,7 @@ window.onload = function() {
     });
 
     // request to visits counter server
-    const url = "http://95.181.152.178";
+    const url = "https://cutrigasvisitscounter.space";
     fetch(url, {
         method: 'POST',
         mode: 'no-cors',
