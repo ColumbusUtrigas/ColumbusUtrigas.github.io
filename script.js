@@ -30,10 +30,6 @@ function appendWork(to, info) {
     appendCard(to, info.header, info.tags, info.description, info.link, "github");
 }
 
-function appendArticle(to) {
-    appendCard(to, "Article", "Tag, tag, tag", "Some short description", "", "read");
-}
-
 function loadWorks() {
     const columnsNum = 3;
 
@@ -56,12 +52,6 @@ function loadWorks() {
     }
 }
 
-function loadBlog() {
-    let column = document.getElementById(`blog-column-${1}`)
-
-    appendArticle(column);
-}
-
 window.onload = function() {
     let arrow = document.getElementById("arrow");
     let top = document.getElementById("top");
@@ -71,5 +61,4 @@ window.onload = function() {
     });
 
     loadWorks();
-    loadBlog();
 }
